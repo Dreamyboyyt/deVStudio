@@ -1,4 +1,4 @@
-name: Build Android APK on Push
+name: Build Android APK
 
 on:
   push:
@@ -19,11 +19,6 @@ jobs:
 
       - name: Grant execute permission for gradlew
         run: chmod +x ./gradlew
-
-      - name: Run custom shell script
-        run: |
-          chmod +x ./your-script.sh
-          ./your-script.sh
       
       - name: Build debug APK with Gradle
         run: ./gradlew assembleDebug
