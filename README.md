@@ -1,6 +1,6 @@
 ![deVStudio Feature Graphic](https://raw.githubusercontent.com/CypherpunkArmory/deVStudio/master/app/src/main/ic_main_launcher-playstore.png)
 
-# Welcome to the deVStudio Android app
+# Welcome to the deVStudio Android app 
 
 The easiest way to run Visual Studio Code on Android.
 
